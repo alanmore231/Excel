@@ -2,7 +2,7 @@
 
 ## Module 1
 
-'''
+```
 
 Option Explicit
 
@@ -88,11 +88,11 @@ ByVal lpDialogFunc As LongPtr, ByVal dwInitParam As LongPtr) As Integer
     End If
 End Function
 
-'''
+```
 
 ## Module 2
 
-'''
+```
 
 Sub unprotected()
     If Hook Then
@@ -100,4 +100,4 @@ Sub unprotected()
     End If
 End Sub
 
-'''
+```
