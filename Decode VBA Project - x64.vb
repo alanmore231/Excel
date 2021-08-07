@@ -2,8 +2,6 @@
 
 ## Module 1
 
-```
-
 Option Explicit
 
 Private Const PAGE_EXECUTE_READWRITE = &H40
@@ -88,16 +86,10 @@ ByVal lpDialogFunc As LongPtr, ByVal dwInitParam As LongPtr) As Integer
     End If
 End Function
 
-```
-
 ## Module 2
-
-```
 
 Sub unprotected()
     If Hook Then
         MsgBox "VBA Project is unprotected!", vbInformation, "*****"
     End If
 End Sub
-
-```
