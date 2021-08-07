@@ -86,7 +86,7 @@ Private Function MyDialogBoxParam(ByVal hInstance As Long, _
      End If
 End Function
 
-# Module 2 or onwrite in a worksheet
+## Module 2 or onwrite in a worksheet
 
 Sub Decode()
 
