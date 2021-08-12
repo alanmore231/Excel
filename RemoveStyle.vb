@@ -1,7 +1,7 @@
-# From: https://archive.codeplex.com/?p=removestyles 
-# Replace by official addin: https://support.microsoft.com/en-us/office/clean-excess-cell-formatting-on-a-worksheet-e744c248-6925-4e77-9d49-4874f7474738
+'From: https://archive.codeplex.com/?p=removestyles 
+'Replace by official addin: https://support.microsoft.com/en-us/office/clean-excess-cell-formatting-on-a-worksheet-e744c248-6925-4e77-9d49-4874f7474738
 
-## Workbook (enable ribbon)
+''Workbook (enable ribbon)
 
 Dim WithEvents app As Application
 
@@ -13,7 +13,7 @@ Private Sub Workbook_Open()
     Set app = Application
 End Sub
 
-## Module 1
+''Module 1
 
 Public MyRibbon As IRibbonUI
 'Callback for customUI.onLoad

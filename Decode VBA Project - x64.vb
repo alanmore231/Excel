@@ -1,6 +1,6 @@
-# From: http://stackoverflow.com/questions/1026483/is-there-a-way-to-crack-the-password-on-an-excel-vba-project/31005696#31005696
+'From: http://stackoverflow.com/questions/1026483/is-there-a-way-to-crack-the-password-on-an-excel-vba-project/31005696#31005696
 
-## Module 1
+''Module 1
 
 Option Explicit
 
@@ -86,7 +86,7 @@ ByVal lpDialogFunc As LongPtr, ByVal dwInitParam As LongPtr) As Integer
     End If
 End Function
 
-## Module 2
+''Module 2
 
 Sub unprotected()
     If Hook Then

@@ -1,4 +1,5 @@
 'Sum by cell color, a function written in 2015
+
 Function ColorSum(Ref_color As Range, Sum_range As Range) 
 
     Application.Volatile

@@ -1,4 +1,4 @@
-# Requsted by Erica and wrote in 2015. Can easily change password or to protect other functions.
+'Requsted by Erica and wrote in 2015. Can easily change password or to protect other functions.
 
 'Protect all formula in active workbook
 Sub protectformula()
