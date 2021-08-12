@@ -1,6 +1,6 @@
 # Requested by Emily and wrote in 2017
 
-Sub Find()
+Sub Copysheet()
  Application.ScreenUpdating = False
 
  Dim MyDir As String
